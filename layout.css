@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+nav ul {
+    background-color: rgb(21, 21, 94);
+    list-style: none;
+    text-align: center;
+
+}
+nav ul li {
+    display: inline-block;
+}
+nav a:link, a:visited {
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+header img {
+    width: 100%;
+}
+.secaocinza {
+    background-color: rgb(224, 224, 224);
+}
+body {
+    background-color: black;
+}
+section { 
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+section h1, section h2, section p {
+    margin: 20px 0px;
+}
+section p {
+    line-height: 1.5em;
+}
+section button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+section button:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
+.secaobranca {
+    background-color: white;
+}
+.btnAzul  {
+    background-color: darkblue;    
+}
+.btnPreto {
+    background-color: black;
+}
+.armario {
+    display: flex;
+    flex-direction: row;
+}
+.caixaOrg {
+    width: 100%;
+    text-align: center;
+}
+.uberCaracteristicas img {
+     width: 80%;
+}
